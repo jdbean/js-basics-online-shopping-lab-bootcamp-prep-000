@@ -49,7 +49,7 @@ function total() {
   for (var i = 0; i < cart.length; i++) {
     var carti = cart[i]
     var cartiValue = carti[Object.keys(cart[i])]
-    var cartPriceTotal += cartiValue
+    var cartPriceTotal += `${cartiValue}`
   }
   return cartPriceTotal
 }
