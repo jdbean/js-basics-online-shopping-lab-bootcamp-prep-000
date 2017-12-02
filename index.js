@@ -52,10 +52,9 @@ function total() {
     cartPriceTotal += cartiValue
   }
   return cartPriceTotal
-}
 
 function removeFromCart(item) {
-  // write your code here
+  for 
 }
 
 function placeOrder(cardNumber) {
