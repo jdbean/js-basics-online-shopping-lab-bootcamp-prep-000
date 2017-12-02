@@ -51,7 +51,7 @@ function total() {
     var cartiValue = carti[Object.keys(cart[i])]
     var cartPriceTotal += cartiValue
   }
-  return c
+  return cartPriceTotal
 }
 
 function removeFromCart(item) {
