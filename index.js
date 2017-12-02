@@ -39,7 +39,7 @@ function viewCart() {
       }
       var cartLast = cart[cart.length - 1]
       var cartLastKey = Object.keys(cartLast)
-      var cartString = `In your cart, you have ${itemsAndPrices.join(', ')} and ${cartLastKey} at $${cartLast[cartLastKey]}.`
+      var cartString = `In your cart, you have ${itemsAndPrices.join(', ')}, and ${cartLastKey} at $${cartLast[cartLastKey]}.`
   }
   console.log(`${cartString}`)
 }
